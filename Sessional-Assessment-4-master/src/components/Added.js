@@ -10,14 +10,14 @@ export default function Added() {
 
   return (
     <div className='background'>
-    <h1> RANKINGS</h1>
+    <h1> Registered Data</h1>
     <div className='tablecard'>
       <table>
         <thead>
           <tr>
-            <th>Position</th>
-            <th>Players</th>
-            <th>Ratings</th>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Email</th>
           </tr>
 
         </thead>

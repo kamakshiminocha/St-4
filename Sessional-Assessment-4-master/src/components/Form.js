@@ -24,14 +24,14 @@ export default function Form() {
 
   return (
     <div>
-      <h1>CRICKETER'S WALL OF FAME</h1>
+      <h1>Registration Form</h1>
       <form className='container'>
-        <label>Position</label><br></br>
-        <input type="number"   placeholder='Enter Position' onChange={(e) => setposition(e.target.value)} required></input><br></br>
-        <label>Player</label><br></br>
-        <input type="text"   placeholder='Enter Name' onChange={(e) => setplayer(e.target.value)} required></input><br></br>
-        <label >Rating</label><br></br>
-        <input type="number" placeholder='Enter Rating' onChange={(e) => setrating(e.target.value)} required></input><br></br>
+        <label>Name</label><br></br>
+        <input type="text"   placeholder='Enter Name' onChange={(e) => setposition(e.target.value)} required></input><br></br>
+        <label>DOB</label><br></br>
+        <input type="text"   placeholder='Enter DOB' onChange={(e) => setplayer(e.target.value)} required></input><br></br>
+        <label >Email</label><br></br>
+        <input type="text" placeholder='Enter Email' onChange={(e) => setrating(e.target.value)} required></input><br></br>
         <Link to='/added'>
           <input className='btn' type="submit" onClick={handleSubmit}></input>
         </Link>
